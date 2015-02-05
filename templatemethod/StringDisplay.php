@@ -6,6 +6,7 @@ require_once '/AbstractDisplay.php';
  * @author shain
  */
 class StringDisplay extends AbstractDisplay{
+    const CRLF = '<BR>';
     private $string;
     private $width;
     function __construct($string) {
@@ -18,7 +19,7 @@ class StringDisplay extends AbstractDisplay{
     }
     
     public function printf() {
-        print("|" . $this->string . "|<BR>");
+        print("|" . $this->string . "|").$this::CRLF;
     }
 
     public function close() {
@@ -30,6 +31,6 @@ class StringDisplay extends AbstractDisplay{
         for ($i = 0; $i < $this->width; $i++) {
             print ("-");
         }
-        print("+<BR>");
+        print("+").$this::CRLF;
     }
 }
