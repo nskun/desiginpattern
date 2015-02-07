@@ -1,8 +1,9 @@
 <?php
+require_once '/IteratorA.php';
 /**
  *
  * @author nskun
  */
-interface aggregate {
+interface Aggregate {
     public function iterator();
 }

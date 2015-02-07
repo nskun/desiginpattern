@@ -4,7 +4,7 @@
  *
  * @author nskun
  */
-interface iterator {
+interface IteratorA {
     public function hasNext();
     public function next();
 }

@@ -4,7 +4,7 @@
  *
  * @author nskun
  */
-class book {
+class Book {
     private $name;
     public function __construct($name) {
         $this->name = $name;
