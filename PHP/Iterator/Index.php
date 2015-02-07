@@ -14,10 +14,15 @@ and open the template in the editor.
         require_once '/BookShelf.php';
         require_once '/Book.php';
         $bookShelf = new bookShelf(4);
-        $bookShelf->appendBook(new book("Around the World in 80 Days"));
-        $bookShelf->appendBook(new book("Bible"));
-        $bookShelf->appendBook(new book("Cinderella"));
-        $bookShelf->appendBook(new book("Daddy-Long-Legs"));
+        try {
+            $bookShelf->appendBook(new book("Around the World in 80 Days"));
+            $bookShelf->appendBook(new book("Bible"));
+            $bookShelf->appendBook(new book("Cinderella"));
+            $bookShelf->appendBook(new book("Daddy-Long-Legs"));
+        } catch (Exception $ex) {
+            print '追加できない書籍があります。<BR>';
+        }
+        
         $it = $bookShelf->iterator();
         while ($it->hasNext()){
             $book = $it->next();
