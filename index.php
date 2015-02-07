@@ -5,7 +5,8 @@
         <title></title>
     </head>
     <body>
-        <a href="php/iterator/">php/iterator/</a><br>
-        <a href="php/templatemethod/">php/templatemethod/</a>
+        <a href="php/TemplateMethod/">php/TemplateMethod/</a><br>
+        <a href="php/Iterator/">php/Iterator/</a><br>
+        <a href="php/Visitor/">php/Visitor/</a><br>
     </body>
 </html>
