@@ -17,5 +17,6 @@
         <a href="php/FactoryMethod4-2/">php/FactoryMethod4-2/</a><br>
         <a href="php/Prototype/">php/Prototype/</a><br>
         <a href="php/Builder/">php/Builder/</a><br>
+        <a href="php/Builder7-2/">php/Builder7-2/</a><br>
     </body>
 </html>
