@@ -15,5 +15,7 @@
         <a href="php/Singleton5-2/">php/Singleton5-2/</a><br>
         <a href="php/FactoryMethod/">php/FactoryMethod/</a><br>
         <a href="php/FactoryMethod4-2/">php/FactoryMethod4-2/</a><br>
+        <a href="php/Prototype/">php/Prototype/</a><br>
+        <a href="php/Builder/">php/Builder/</a><br>
     </body>
 </html>
