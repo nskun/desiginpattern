@@ -20,7 +20,7 @@
         $d3->display();
         $d3->multiDisplay(5);
         $d4->display();
-        $d4->randomDisplay();
+        $d4->randomDisplay(10);
         ?>
     </body>
 </html>

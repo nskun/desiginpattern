@@ -5,16 +5,12 @@ require_once '/Display.php';
  *
  * @author nskun
  */
-class RandomDisplay extends Display{
+class RandomDisplay extends CountDisplay{
     public function __construct($impl) {
         parent::__construct($impl);
     }
-    public function randomDisplay() {
-        $this->open();
-        $rand = rand(0, 10);
-        for($i = 0; $i < $rand; $i++) {
-            $this->MyPrint();
-        }
-        $this->close();
+    public function randomDisplay($max) {
+        $rand = rand(0, $max);
+        $this->multiDisplay($rand);
     }
 }
