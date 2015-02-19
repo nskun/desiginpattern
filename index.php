@@ -19,5 +19,6 @@
         <a href="php/Builder/">php/Builder/</a><br>
         <a href="php/Builder7-2/">php/Builder7-2/</a><br>
         <a href="php/AbstractFactory/">php/AbstractFactory/</a><br>
+        <a href="php/Bridge/">php/Bridge/</a><br>
     </body>
 </html>
