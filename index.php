@@ -22,5 +22,6 @@
         <a href="php/Bridge/">php/Bridge/</a><br>
         <a href="php/Bridge9-1/">php/Bridge9-1/</a><br>
         <a href="php/Bridge9-3/">php/Bridge9-3/</a><br>
+        <a href="php/Strategy/">php/Strategy/</a><br>
     </body>
 </html>
