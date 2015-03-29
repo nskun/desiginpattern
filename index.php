@@ -27,5 +27,6 @@
         <a href="php/Strategy10-4/">php/Strategy10-4/</a><br>
         <a href="php/Composite/">php/Composite/</a><br>
         <a href="php/Decorator/">php/Decorator/</a><br>
+        <a href="php/Decorator12-1/">php/Decorator12-1/</a><br>
     </body>
 </html>
