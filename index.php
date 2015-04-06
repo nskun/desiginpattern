@@ -30,5 +30,7 @@
         <a href="php/Decorator12-1/">php/Decorator12-1/</a><br>
         <a href="php/Decorator12-2/">php/Decorator12-2/</a><br>
         <a href="php/CoR/">php/CoR/</a><br>
+        <a href="php/CoR14-4/">php/CoR14-4/</a><br>
+        <a href="php/Mediator/">php/Mediator/</a><br>
     </body>
 </html>

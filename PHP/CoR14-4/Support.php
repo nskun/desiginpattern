@@ -15,12 +15,14 @@ abstract class Support {
         return $next;
     }
     public final function support($trouble) {
-        if($this->resolve($trouble)) {
-            $this->done($trouble);
-        } else if($this->next != null) {
-            $this->next->support($trouble);
-        } else {
-            $this->fail($trouble);
+        for ($obj = $this; true; $obj = $obj->next) {
+            if ($obj->resolve($trouble)) {
+                $obj->done($trouble);
+                break;
+            } elseif ($obj->next == null) {
+                $obj->fail($trouble);
+                break;
+            }
         }
     }
     public function toString() {
@@ -28,7 +30,7 @@ abstract class Support {
     }
     protected abstract function resolve($trouble);
     protected function done($trouble) {
-        print $trouble->toString() . " is resolved by " . $this->name . ".<br>";
+        print $trouble->toString() . " is resolved by " . $this->toString() . ".<br>";
     }
     protected function fail($trouble){
         print $trouble->toString() . "cannot be resolved.<br>";
