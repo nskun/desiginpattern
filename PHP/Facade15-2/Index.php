@@ -7,7 +7,7 @@
     <body>
         <?php
         require_once './PageMaker.php';
-        PageMaker::makeWelcomePage("hyuki@hyuki.com", "welcom.html");
+        PageMaker::makeLinkPage("linkpage.html");
         ?>
     </body>
 </html>

@@ -25,4 +25,20 @@ class PageMaker {
             print $ex->getMessage();
         }
     }
+    public static function makeLinkPage($filename) {
+        try {
+            $mapMailData = Database::getProperties("maildata");
+            $writer = new FacadeHtmlWriter("");
+            $writer->title("Link page");
+            foreach ($mapMailData as $username => $mailaddr) {
+                $writer->mailto($username, $mailaddr);
+            }
+            $writer->close();
+            file_put_contents("./" . $filename, $writer->writer);
+            print $filename . " is created.";
+        } catch (Exception $ex) {
+            print $ex->getMessage();
+        }
+
+    }
 }
