@@ -6,11 +6,11 @@
     </head>
     <body>
         <?php
-        require_once './RandomNumberGenerator.php';
+        require_once './IncrementalNumberGenerator.php';
         require_once './DigitOvserver.php';
         require_once './GraphObserver.php';
         set_time_limit(0);
-        $generator = new RandomNumberGenerator();
+        $generator = new IncrementalNumberGenerator(10, 50, 5);
         $observer1 = new DigitOvserver();
         $observer2 = new GraphObserver();
         $generator->addObserver($observer1);
