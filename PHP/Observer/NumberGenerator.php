@@ -12,9 +12,6 @@ abstract class NumberGenerator {
     public function addObserver($observer) {
         $this->observer->append($observer);
     }
-    public function deleteObserver($observer) {
-        $this->observer->offsetUnset($ovserver);
-    }
     public function notifyObservers() {
         $it = $this->observer->getIterator();
         while($it->valid()) {
