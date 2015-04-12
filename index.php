@@ -33,6 +33,9 @@
         <a href="php/CoR14-4/">php/CoR14-4/</a><br>
         <a href="php/Mediator/">php/Mediator/</a><br>
         <a href="php/Facade/">php/Facade/</a><br>
+        <a href="php/Facade/welcom.html">php/Facade/welcom.html</a><br>
         <a href="php/Facade15-2/">php/Facade15-2/</a><br>
+        <a href="php/Facade15-2/linkpage.html">php/Facade15-2/linkpage.html</a><br>
+        <a href="php/Observer">php/Observer</a><br>
     </body>
 </html>
