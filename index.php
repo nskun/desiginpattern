@@ -23,7 +23,7 @@
         <a href="php/Bridge9-1/">php/Bridge9-1/</a><br>
         <a href="php/Bridge9-3/">php/Bridge9-3/</a><br>
         <a href="php/Strategy/">php/Strategy/</a><br>
-        <a href="php/Strategy10-1/">php/Strategy10-1/</a><br>
+        <a href="php/Strategy10-1/">php/Strategy10-1/</a><br    >
         <a href="php/Strategy10-4/">php/Strategy10-4/</a><br>
         <a href="php/Composite/">php/Composite/</a><br>
         <a href="php/Decorator/">php/Decorator/</a><br>
@@ -38,5 +38,6 @@
         <a href="php/Facade15-2/linkpage.html">php/Facade15-2/linkpage.html</a><br>
         <a href="php/Observer">php/Observer</a><br>
         <a href="php/Observer17-1">php/Observer17-1</a><br>
+        <a href="php/Memento">php/Memento</a><br>
     </body>
 </html>
