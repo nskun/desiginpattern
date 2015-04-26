@@ -40,5 +40,6 @@
         <a href="php/Observer17-1">php/Observer17-1</a><br>
         <a href="php/Memento">php/Memento</a><br>
         <a href="php/Flyweight">php/Flyweight</a><br>
+        <a href="php/Flyweight20-1">php/Flyweight20-1</a><br>
     </body>
 </html>
