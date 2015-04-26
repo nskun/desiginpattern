@@ -9,7 +9,6 @@
         require_once '/BigString.php';
         $bs = new BigString('1234567890');
         $bs->BigStringPrint();
-        echo "a";
         ?>
     </body>
 </html>
